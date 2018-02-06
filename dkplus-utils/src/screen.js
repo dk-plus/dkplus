@@ -43,6 +43,21 @@ const screen = (function(){
         return distance;
     }
 
+    // 设置文档滚动距离，-为向上，+为向下
+    function setDocScroll(val) {
+        document.documentElement.scrollTop = val;
+    }
+
+    // 返回文档顶部
+    function backToTop() {
+        document.documentElement.scrollTop = 0;
+    }
+
+    // 设置滚动元素的滚动距离
+    function setEleScroll(ele,val) {
+        ele.scrollTop = val;
+    }
+
     // 获取元素离窗口顶部的距离
     function getDistanceToWindowTop(ele) {
         var distance = getDistanceToDocTop(ele) - getDocScroll();
@@ -52,8 +67,14 @@ const screen = (function(){
     return {
         getScreenWidth,
         getScreenHeight,
+
         getDocHeight,
+        setDocScroll,
+        backToTop,
+        
+        setEleScroll,
         getEleHeight,
+
         getDistanceToDocTop,
         getDocScroll,
         getDistanceToWindowTop
