@@ -8,13 +8,13 @@
 
 const screen = (function(){
 
-    // 获取屏幕宽度
+    // 获取视口宽度
     function getScreenWidth() {
         var width = document.body.clientWidth || document.documentElement.clientWidth;
         return width;
     }
 
-    // 获取屏幕高度
+    // 获取视口高度
     function getScreenHeight() {
         var height = document.body.clientHeight || document.documentElement.clientHeight;
         return height;
@@ -28,7 +28,7 @@ const screen = (function(){
 
     // 获取元素高度
     function getEleHeight(ele) {
-        var eleHeight = ele.scrollHeight || offsetHeights;
+        var eleHeight = ele.scrollHeight || ele.offsetHeights;
         return eleHeight;
     }
 
