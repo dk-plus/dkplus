@@ -2,6 +2,7 @@
  * 屏幕相关api简化
  * 
  * author: dkplus <dkplus@qq.com>
+ * date: 2018.02.05
  * version: $1.0.0$
  */
 

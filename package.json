@@ -1,0 +1,25 @@
+{
+  "name": "dkplus",
+  "version": "1.0.0",
+  "description": "This is my learning repository.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dk-plus/dkplus.git"
+  },
+  "keywords": [
+    "dkplus"
+  ],
+  "author": "dkplus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dk-plus/dkplus/issues"
+  },
+  "homepage": "https://github.com/dk-plus/dkplus#readme"
+}
