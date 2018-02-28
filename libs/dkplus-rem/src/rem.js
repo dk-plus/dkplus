@@ -25,7 +25,7 @@ function init(psdWidth, fontSize, times){
 }
 function setFontSize(){
     var clientWidth = document.documentElement.clientWidth;
-    document.documentElement.fontSize = (clientWidth/(PSD_WIDTH/TIMES))*FONT_SIZE;
+    document.documentElement.style.fontSize = (clientWidth/(PSD_WIDTH/TIMES))*FONT_SIZE + 'px';
 }
 
 module.export = {
