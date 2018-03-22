@@ -7,3 +7,4 @@ function isArray(arr) {
     return true;
   }
 }
+// test merge
