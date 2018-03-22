@@ -21,3 +21,4 @@ var dkplus = require('dkplus');
 //使用
 dkplus.array.indexOfUniq([1,2,3,4,1,2]);
 ```
+test merge
